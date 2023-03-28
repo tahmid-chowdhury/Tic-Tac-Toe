@@ -5,28 +5,12 @@ body {
 }
 
 h1 {
-    text-align: center;
     color: white;
 }
 
-table {
-    border-collapse: collapse;
+#heading {
     margin: 0 auto;
-}
-
-td {
-    border: 2px solid #4a4a4a;
-    width: 100px;
-    height: 100px;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 60px;
-    cursor: pointer;
-    color: white;
-}
-
-td:hover {
-    background-color: #3f3f3f;
+    width: 360px;
 }
 
 #message {
@@ -51,4 +35,41 @@ td:hover {
 
 #new-game:hover {
     background-color: #3e8e41;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+td {
+    border: 2px solid #4a4a4a;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 60px;
+    cursor: pointer;
+    color: white;
+}
+
+td:hover {
+    background-color: #3f3f3f;
+}
+
+#description {
+    margin: 0 auto;
+    width: 360px;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+a {
+    color: white;
+    font-weight: bold;
 }
