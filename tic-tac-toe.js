@@ -153,7 +153,7 @@ function handleSquareClick(event) {
         }
         else {
             currentPlayer = COMPUTER_PLAYER;
-            playComputerMove();
+            window.setTimeout(playComputerMove,1000);
         }
     }
 }
